@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: heath-nodeRED1
+  host: heath-nodeRED1
+  disk_quota: 1024M
+  services:
+  - heath-nodeRED1-cloudantNoSQLDB
